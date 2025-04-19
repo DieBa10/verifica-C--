@@ -1,0 +1,19 @@
+Gestione Voti Studenti con Menu Interattivo
+🎯 Obiettivo:
+Scrivere un programma in C++ che registri le informazioni di una classe di studenti e consenta, tramite un menu, di visualizzare varie statistiche.
+
+📚 Traccia:
+
+1.Definire una struct Studente contenente:
+string nome
+float voto
+
+2.Chiedere all’utente quanti studenti vuole inserire (massimo 30). Usare un if per verificare che il numero non superi 30.
+3.Usare un ciclo for per inserire i dati degli studenti (nome e voto).
+4.Usare un ciclo while per determinare lo studente con il voto più alto.
+5.Mostrare un menu interattivo con do-while e switch-case che permetta all’utente di:
+1 → Visualizzare l’elenco completo di studenti con voti
+2 → Calcolare e visualizzare la media dei voti
+3 → Visualizzare solo gli studenti con voto sufficiente (voto ≥ 6)
+4 → Uscire
+In ogni caso, usare almeno un if per verificare condizioni (es. voto sufficiente o no, studenti inseriti, ecc.).
